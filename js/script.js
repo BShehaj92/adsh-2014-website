@@ -33,8 +33,8 @@ $(document).ready(function(){
         });
     });
 
-    // team carousel 
-    $('.team .owl-carousel').owlCarousel({
+    // products carousel 
+    $('.products .owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
         autoplay: true,

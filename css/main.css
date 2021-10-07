@@ -208,28 +208,28 @@ section{
     background: var(--mount-meadow);
     height: 2.5px;
 }
-/* feature */
-.feature .title{
+/* about us */
+.aboutus .title{
     text-align: left;
 }
-.feature-left img{
+.aboutus-left img{
     width: 80%;
     margin: 0 auto;
 }
-.feature-right{
+.aboutus-right{
     margin-top: 4rem;
 }
-.feature-item{
+.aboutus-item{
     margin: 1.4rem 0;
     display: flex;
 }
-.feature-item div h3{
+.aboutus-item div h3{
     margin-top: 0;
     font-size: 1.4rem;
     font-weight: 300;
     opacity: 0.85;
 }
-.feature-item span{
+.aboutus-item span{
     font-size: 1.1rem;
     color: #fff;
     background: var(--mount-meadow);
@@ -251,6 +251,7 @@ section{
     left: 0;
     width: 100%;
     height: 100%;
+
   }
 .video{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/akullore\ background.png);
@@ -263,17 +264,17 @@ section{
 }
 
 
-/* team */
-.team .row{
+/* products */
+.products .row{
     margin-top: 2rem;
 }
-.team-item{
+.products-item{
     margin: 2rem 0;
 }
-.team-img{
+.products-img{
     position: relative;
 }
-.team-icons{
+.products-icons{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -283,29 +284,29 @@ section{
     opacity: 0;
     transition: var(--transition);
 }
-.team-icons a{
+.products-icons a{
     color: var(--night-rider);
     width: 50px;
     height: 50px;
     transition: var(--transition);
 }
-.team-icons a:hover{
+.products-icons a:hover{
     background: var(--mount-meadow);
     color: #fff;
 }
-.team-img:hover .team-icons{
+.products-img:hover .products-icons{
     opacity: 1;
 }
-.team-info{
+.products-info{
     text-align: center;
     padding: 1.5rem;
     line-height: 1;
 }
-.team-info h3{
+.products-info h3{
     font-size: 1.4rem;
     color: var(--night-rider);
 }
-.team-info span{
+.products-info span{
     font-size: 0.85rem;
     letter-spacing: 1px;
     font-weight: 500;
@@ -464,7 +465,7 @@ section{
         width: 75%;
         margin: 0 auto;
     }
-    .team-item{
+    .products-item{
         margin: 0;
     }
     .faq .row{
@@ -547,13 +548,13 @@ section{
     .cng-navbar .nav-link{
         color: var(--night-rider);
     }
-    .feature .row{
+    .aboutus .row{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
         column-gap: 2rem;
     }
-    .feature-right{
+    .aboutus-right{
         margin-top: 0;
     }
     .video p{
